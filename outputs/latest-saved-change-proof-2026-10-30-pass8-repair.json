@@ -1,0 +1,157 @@
+{
+  "pass": "Pass 8 Post-Verification Corrections",
+  "timestamp": "2026-10-30T00:10:00+05:30",
+  "overall_status": "PASSED",
+  "total_walkthroughs": 14,
+  "passed_walkthroughs": 14,
+  "changed_files": [
+    "docs\\INTEGRATION_CONTRACT.md",
+    "docs\\PANCHAMI.md",
+    "docs\\PROJECT_MEMORY.md",
+    "docs\\SHARVANI.md"
+  ],
+  "file_hashes": {
+    "docs\\AI.md": {
+      "sha256": "7b29fbd694dda4b3c9c7fee42027c71ca3d368e88eb4823bd1059dff2d43b08f",
+      "size": 144686
+    },
+    "docs\\ARCHITECTURE.md": {
+      "sha256": "1240a785ceac66e550d356c0dfb939bcc99b0d08813947e2464147eb2bea0d54",
+      "size": 34604
+    },
+    "docs\\DATABASE.md": {
+      "sha256": "63093d20f6eef9ac6b2b296840e1b181f4cec527e764dd56a22a9ff45c1d2c84",
+      "size": 25678
+    },
+    "docs\\DEPLOYMENT.md": {
+      "sha256": "865e7bc2e6f8ecd8702b2378a8ccd91a1fa6a59418a88a8f3d0fb3646e6b97e4",
+      "size": 13948
+    },
+    "docs\\DEPLOYMENT_ARCHITECTURE.md": {
+      "sha256": "76c2f90d7f918ec2028def2d3796149803221c5d185aa8c6134c1435fa23418e",
+      "size": 11852
+    },
+    "docs\\DESIGN.md": {
+      "sha256": "9a99b1fe4e0742ee310fd53cd2f4d6b26ce24fddbfcb476a4545321c327c8ed1",
+      "size": 17554
+    },
+    "docs\\FRONTEND_SPEC.md": {
+      "sha256": "ab7f60b53c447bd82cb715028e7bb11d98d105cd283cc90842766750cd5baba1",
+      "size": 27643
+    },
+    "docs\\IMPLEMENTATION_PLAN.md": {
+      "sha256": "7262eddbaa8d3a64d86f84c54431c9a0fac7ee0b06f97826989437249e0d08cd",
+      "size": 9947
+    },
+    "docs\\INTEGRATION_CONTRACT.md": {
+      "sha256": "68bc807a9efb53708ea47e67f7cf074b2f638b906451c36b431f568bc8298e89",
+      "size": 109899
+    },
+    "docs\\NIKITHA.md": {
+      "sha256": "f76709951f5d70a1e81fc244527b1232dc78c052c5edc9850970b26daa749316",
+      "size": 88695
+    },
+    "docs\\PANCHAMI.md": {
+      "sha256": "d12cc709cd1d07c6d1e6d8ee19b7b98dcc2696ce8d346cf8a8d5ec8937b0c022",
+      "size": 99917
+    },
+    "docs\\PRD.md": {
+      "sha256": "24d56601e0c542e4348748c57b4b3815a09d48607d1a5ba6f1d1e0de61d53761",
+      "size": 30976
+    },
+    "docs\\PROJECT_MEMORY.md": {
+      "sha256": "f3824806137d5d384466d61413b09c2c11a7bde2ca90aac7840d55652274635e",
+      "size": 129590
+    },
+    "docs\\README.md": {
+      "sha256": "46b98352150bffa7f0956e60cabf94ab0f333eb4d5431188ce5af5c5dee44dde",
+      "size": 996
+    },
+    "docs\\SHARVANI.md": {
+      "sha256": "c52c6a55a0863fb6ef6bead61af3349256c696c7e8b239bf65a4694ceeac3520",
+      "size": 179916
+    },
+    "docs\\TRD.md": {
+      "sha256": "4f68b651446445fa0be0cdebdc6d9a6ca9a1c92bfd277e7f125cbdcbe5f8d54c",
+      "size": 53819
+    },
+    "docs\\archive\\former-team\\IMPLEMENTATION_PLAN-before-three-member-team.md": {
+      "sha256": "4d5cdf7ad9194baf0c384e94bf5f490e9297a6f7734211aff49845566b708c50",
+      "size": 13306
+    },
+    "docs\\archive\\former-team\\NITHYA-prototype-mirror.md": {
+      "sha256": "f469ca174732a82f16d476d1ffa1cead717da3d1ea13215aaa3304dcfdc8c1bc",
+      "size": 48296
+    },
+    "docs\\archive\\former-team\\NITHYA.md": {
+      "sha256": "469804ec1ad3533ed5d0bde85f74ed62e16fd79debf81959d5792b836f3a092d",
+      "size": 49994
+    },
+    "docs\\archive\\former-team\\README.md": {
+      "sha256": "8e6fb9e7543ceb245ac688cab359750a8aa253d81d4d7dfea5880d945ebe3b6d",
+      "size": 703
+    },
+    "docs\\data\\WORKING_WITH_THE_DATA.md": {
+      "sha256": "c36a045bfb3610537caa572427c71600f6182db7ccea7d46393366455b92574f",
+      "size": 4389
+    }
+  },
+  "walkthroughs": [
+    {
+      "name": "Walkthrough 1: Current Photo row described strictly using inspected model fields (no false count columns)",
+      "passed": true
+    },
+    {
+      "name": "Walkthrough 2: Recognition counts identified as runtime/worker metrics or proposed target schema",
+      "passed": true
+    },
+    {
+      "name": "Walkthrough 3: Reload with unavailable evidence is never misclassified as Scenery",
+      "passed": true
+    },
+    {
+      "name": "Walkthrough 4: Unknown face instances not inserted into current non-null PhotoPerson rows",
+      "passed": true
+    },
+    {
+      "name": "Walkthrough 5: Real ORM PhotoPerson record preserves tagId from record.pp_id",
+      "passed": true
+    },
+    {
+      "name": "Walkthrough 6: Fake dictionary with pp_id produces identical normalized DTO",
+      "passed": true
+    },
+    {
+      "name": "Walkthrough 7: Missing identity raises explicit validation error instead of synthesizing from user_id",
+      "passed": true
+    },
+    {
+      "name": "Walkthrough 8: Missing current bounding box represented honestly as None without fabricated coordinates",
+      "passed": true
+    },
+    {
+      "name": "Walkthrough 9: Router upload example concretely invokes normalize_photo_tag_record before wire response",
+      "passed": true
+    },
+    {
+      "name": "Walkthrough 10: Worker failure strictly maps to storage failed and wire failed",
+      "passed": true
+    },
+    {
+      "name": "Walkthrough 11: Authoritative Mutation, Version & Freshness Matrix established across operations",
+      "passed": true
+    },
+    {
+      "name": "Walkthrough 12: Clarification updates AI fingerprint and invalidates in-flight leases without version bump",
+      "passed": true
+    },
+    {
+      "name": "Walkthrough 13: Unsupported \"version changes only on confirmation/restore\" claim purged",
+      "passed": true
+    },
+    {
+      "name": "Walkthrough 14: Online PDF export required / offline deferred, English-only scope, and 3-member split preserved",
+      "passed": true
+    }
+  ]
+}

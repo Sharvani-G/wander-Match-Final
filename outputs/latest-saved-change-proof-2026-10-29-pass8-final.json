@@ -1,0 +1,158 @@
+{
+  "pass": "Pass 8 Final Contract Normalization",
+  "timestamp": "2026-10-29T23:35:00+05:30",
+  "overall_status": "PASSED",
+  "total_walkthroughs": 14,
+  "passed_walkthroughs": 14,
+  "changed_files": [
+    "docs\\INTEGRATION_CONTRACT.md",
+    "docs\\NIKITHA.md",
+    "docs\\PANCHAMI.md",
+    "docs\\PROJECT_MEMORY.md",
+    "docs\\SHARVANI.md"
+  ],
+  "file_hashes": {
+    "docs\\AI.md": {
+      "sha256": "7b29fbd694dda4b3c9c7fee42027c71ca3d368e88eb4823bd1059dff2d43b08f",
+      "size": 144686
+    },
+    "docs\\ARCHITECTURE.md": {
+      "sha256": "1240a785ceac66e550d356c0dfb939bcc99b0d08813947e2464147eb2bea0d54",
+      "size": 34604
+    },
+    "docs\\DATABASE.md": {
+      "sha256": "63093d20f6eef9ac6b2b296840e1b181f4cec527e764dd56a22a9ff45c1d2c84",
+      "size": 25678
+    },
+    "docs\\DEPLOYMENT.md": {
+      "sha256": "865e7bc2e6f8ecd8702b2378a8ccd91a1fa6a59418a88a8f3d0fb3646e6b97e4",
+      "size": 13948
+    },
+    "docs\\DEPLOYMENT_ARCHITECTURE.md": {
+      "sha256": "76c2f90d7f918ec2028def2d3796149803221c5d185aa8c6134c1435fa23418e",
+      "size": 11852
+    },
+    "docs\\DESIGN.md": {
+      "sha256": "9a99b1fe4e0742ee310fd53cd2f4d6b26ce24fddbfcb476a4545321c327c8ed1",
+      "size": 17554
+    },
+    "docs\\FRONTEND_SPEC.md": {
+      "sha256": "ab7f60b53c447bd82cb715028e7bb11d98d105cd283cc90842766750cd5baba1",
+      "size": 27643
+    },
+    "docs\\IMPLEMENTATION_PLAN.md": {
+      "sha256": "7262eddbaa8d3a64d86f84c54431c9a0fac7ee0b06f97826989437249e0d08cd",
+      "size": 9947
+    },
+    "docs\\INTEGRATION_CONTRACT.md": {
+      "sha256": "ebec0b3226a488ab46f40b1202da4c4602bef384b5573f265f993b3192f39141",
+      "size": 102626
+    },
+    "docs\\NIKITHA.md": {
+      "sha256": "f76709951f5d70a1e81fc244527b1232dc78c052c5edc9850970b26daa749316",
+      "size": 88695
+    },
+    "docs\\PANCHAMI.md": {
+      "sha256": "67a0ec22fb2d98c8917af90e26e5fa424366e27d0cc44640c7ae8709f260606b",
+      "size": 97065
+    },
+    "docs\\PRD.md": {
+      "sha256": "24d56601e0c542e4348748c57b4b3815a09d48607d1a5ba6f1d1e0de61d53761",
+      "size": 30976
+    },
+    "docs\\PROJECT_MEMORY.md": {
+      "sha256": "18b47272ead3a055b2aca06569a93bd4bfd551a76d2743c2c94a9939efd77f78",
+      "size": 126015
+    },
+    "docs\\README.md": {
+      "sha256": "46b98352150bffa7f0956e60cabf94ab0f333eb4d5431188ce5af5c5dee44dde",
+      "size": 996
+    },
+    "docs\\SHARVANI.md": {
+      "sha256": "4a8f6791bccc8a3b2134e089b04d7d98176bcbbcb37c01e495bdeb6e3f2459eb",
+      "size": 178363
+    },
+    "docs\\TRD.md": {
+      "sha256": "4f68b651446445fa0be0cdebdc6d9a6ca9a1c92bfd277e7f125cbdcbe5f8d54c",
+      "size": 53819
+    },
+    "docs\\archive\\former-team\\IMPLEMENTATION_PLAN-before-three-member-team.md": {
+      "sha256": "4d5cdf7ad9194baf0c384e94bf5f490e9297a6f7734211aff49845566b708c50",
+      "size": 13306
+    },
+    "docs\\archive\\former-team\\NITHYA-prototype-mirror.md": {
+      "sha256": "f469ca174732a82f16d476d1ffa1cead717da3d1ea13215aaa3304dcfdc8c1bc",
+      "size": 48296
+    },
+    "docs\\archive\\former-team\\NITHYA.md": {
+      "sha256": "469804ec1ad3533ed5d0bde85f74ed62e16fd79debf81959d5792b836f3a092d",
+      "size": 49994
+    },
+    "docs\\archive\\former-team\\README.md": {
+      "sha256": "8e6fb9e7543ceb245ac688cab359750a8aa253d81d4d7dfea5880d945ebe3b6d",
+      "size": 703
+    },
+    "docs\\data\\WORKING_WITH_THE_DATA.md": {
+      "sha256": "c36a045bfb3610537caa572427c71600f6182db7ccea7d46393366455b92574f",
+      "size": 4389
+    }
+  },
+  "walkthroughs": [
+    {
+      "name": "Walkthrough 1: Expired clarification token -> 422 ERR_TOKEN_EXPIRED with defined UI alert",
+      "passed": true
+    },
+    {
+      "name": "Walkthrough 2: Tampered / mismatched token -> 422 ERR_EVIDENCE_INVALID",
+      "passed": true
+    },
+    {
+      "name": "Walkthrough 3: Fake clarification success matches canonical response DTO without fabricated version bump",
+      "passed": true
+    },
+    {
+      "name": "Walkthrough 4: clarificationSubmitted event envelope has matching fields with dual-access slotId/itmId",
+      "passed": true
+    },
+    {
+      "name": "Walkthrough 5: Version omitted from clarification response with explicit explanation that only CAS bumps it",
+      "passed": true
+    },
+    {
+      "name": "Walkthrough 6: Photo gallery refresh points to supported mounted route GET /api/photos/{trp_id}",
+      "passed": true
+    },
+    {
+      "name": "Walkthrough 7: Photo persistence results unified via service-facing DTO normalizer normalize_photo_tag_record",
+      "passed": true
+    },
+    {
+      "name": "Walkthrough 8: Real ORM PhotoPerson and fake dictionary records normalized to identical shape",
+      "passed": true
+    },
+    {
+      "name": "Walkthrough 9: Worker failure maps strictly to storage failed and wire failed without degraded alternative",
+      "passed": true
+    },
+    {
+      "name": "Walkthrough 10: Unknown faces categorized as GroupPhotos with unidentified_faces=True, distinct from Scenery",
+      "passed": true
+    },
+    {
+      "name": "Walkthrough 11: Unknown face-instance persistence respects current PhotoPerson non-nullability constraint",
+      "passed": true
+    },
+    {
+      "name": "Walkthrough 12: Decision #13 (Buffer Durations), #28 (Timeout), #30 (PDF Engine) match register",
+      "passed": true
+    },
+    {
+      "name": "Walkthrough 13: Provider timeout preserves baseline proposal and escalates to manual resolution",
+      "passed": true
+    },
+    {
+      "name": "Walkthrough 14: Online PDF export required / offline deferred, and strict English-only scope preserved",
+      "passed": true
+    }
+  ]
+}
